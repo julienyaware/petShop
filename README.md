@@ -23,6 +23,9 @@ Note: All the information for your application can be obtained from REST API end
 
 ![image](https://user-images.githubusercontent.com/13431164/190981557-7fd19aad-2818-4f06-a3b5-895990954a6f.png)
 
+![image](https://user-images.githubusercontent.com/13431164/190992260-457586f4-159b-46a2-a68d-34702f7c76ba.png)
+
+
 ## API specifics
 All pet profile data is to be fetched from the following API endpoint:
 
