@@ -1,13 +1,3 @@
-
-# Medior React Assignment
-
-In this assignment we would like you to build an amazing Pets web app using the provided mock-up designs. 🧑‍🏭
-
-* You can use the below mentioned REST API endpoint to request the information for your application
-* You have an option to either use this boilerplate setup or build your own, taking into consideration that the code should be properly linted and have a consistent structure
-
-Carefully read the instructions before you proceed.
-
 ## Scope
 
 The idea of the assignment is to develop an app that displays different types of ```pets on a filter page```.
@@ -22,41 +12,16 @@ The idea of the assignment is to develop an app that displays different types of
 * Make your components reusable (Styled components)
 * Fetch data from given REST API endpoint
 * Ensure it works on modern browsers
-
-_Bonus points:_
 * At the bottom of the page you should show different ```categories``` for the pets
 * Support for ```screen readers```
 
 Note: All the information for your application can be obtained from REST API endpoint which are mentioned below.
 
-## Design specifics
+## What to expect 
 
-### Designs
--   [Component Specifications](https://github.com/coolblue-development/react-frontend-exercise/blob/main/mr-react-frontend-exercise/designs/component-specifications.png)
--   [Filter Page - Desktop](https://github.com/coolblue-development/react-frontend-exercise/blob/main/mr-react-frontend-exercise/designs/filter-page-desktop.png)
--   [Filter Page - Mobile](https://github.com/coolblue-development/react-frontend-exercise/blob/main/mr-react-frontend-exercise/designs/filter-page-mobile.png)
--   [Search - Desktop](https://github.com/coolblue-development/react-frontend-exercise/blob/main/mr-react-frontend-exercise/designs/search-desktop.png)
--   [Search - Mobile](https://github.com/coolblue-development/react-frontend-exercise/blob/main/mr-react-frontend-exercise/designs/search-mobile.png)
+![image](https://user-images.githubusercontent.com/13431164/190981465-ce11c889-08ff-4f4d-ac9f-1328f7825c52.png)
 
-### Static assets
-
-All the required `icons and images` are added to the `./public` directory
-
-### Colors used
-- Red:  `#BF2C23`
-- Yellow:  `#E0B833`
-- Light yellow:  `#F8CF47`
-- Dark blue:  `#285DAB`
-- Light blue:  `#2B6DB1`
-- Dark grey: `#666666`
-- Grey: `#DDDDDD`
-- Light grey: `#F0F0F0`
-- White:  `#FFFFFF`
-- Black:  `#111111`
-
-### Font used
-
-`Open Sans`
+![image](https://user-images.githubusercontent.com/13431164/190981557-7fd19aad-2818-4f06-a3b5-895990954a6f.png)
 
 ## API specifics
 All pet profile data is to be fetched from the following API endpoint:
@@ -67,15 +32,12 @@ Method: GET
 URL: https://61f6e0072e1d7e0017fd6f82.mockapi.io/api/v1/pets
 ```
 
-## Conditions
-Consider not spending more than 4 hours to complete the assignment.
-In case you are not able to complete the assignment within the given timeframe, consider submitting the assignment with what you have completed.
+### Tools Used
 
-### Submission instructions
-All applicants must share their code by creating a zip file of their project folder
-(excluding the node_modules directory) and submit by either uploading it to a cloud service (sharing the link with us like wetransfer or Google Drive).
+- React
+- Redux
+- Fuse.js
 
-We would like to get the assignment back from you 48 hours before the second interview at the latest.
 
 ## Usage
 
@@ -111,21 +73,3 @@ yarn build
 
 Will compile and minify. Will Minify and uglify JavaScript and output the bundled assets to  `./build`.
 
-## Stack
-
-The boilerplate uses create react app and should run out of the box without any modifications.
-
-## Questions
-
--   **Question**: How much time do I have?
-
--   **Answer**: Try to limit your time to 4 hours in total.
-
-
--   **Question**: Can I use CSS Frameworks like Bootstrap or Material-ui?
-
--   **Answer**: Yes, you can but make sure that the components must be styled to match the provided mockups.
-
-If you have any other questions while working on the exercise feel free to reach out. We will be happy to help.
-
-Happy coding! 😺
